@@ -1,0 +1,49 @@
+2023-05-02T15:29:50+00:00 ERROR Could not enable webhook for localhost
+2023-05-02T15:29:50+00:00 INFO Trying to create one_cc_address_sync_cron
+2023-05-02T15:29:50+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2023-05-02T15:29:50+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2023-05-02T15:29:50+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2023-05-02T15:29:50+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2023-05-02T15:29:50+00:00 INFO updateAddressSyncCronData: successfully updated
+2023-05-02T16:20:31+00:00 INFO Called process_payment with params order_id 163
+2023-05-02T16:20:31+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 163
+2023-05-02T16:20:34+00:00 INFO getRazorpayPaymentParams 163
+2023-05-02T16:20:34+00:00 INFO createOrGetRazorpayOrderId 163 and is1ccCheckout is set to no
+2023-05-02T16:20:34+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 163 and is_magic_checkout_order is set to no
+2023-05-02T16:20:34+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id163
+2023-05-02T16:20:34+00:00 INFO Called createRazorpayOrderId with params orderId 163 and sessionKey razorpay_order_id163
+2023-05-02T16:20:34+00:00 INFO Called getOrderCreationData with params orderId 163
+2023-05-02T16:20:34+00:00 INFO Called getOrderCreationData with params orderId 163 and is1ccOrder is set to no
+2023-05-02T16:20:34+00:00 INFO For order 163
+2023-05-02T16:20:34+00:00 INFO {"receipt":163,"amount":110090,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"163"}}
+2023-05-02T16:20:35+00:00 INFO For order session key razorpay_order_id163
+2023-05-02T16:22:12+00:00 INFO Called check_razorpay_response: wc_order_fPpzR9nim1pGv
+2023-05-02T16:22:12+00:00 INFO Get order id in check_razorpay_response: orderId 163
+2023-05-02T16:22:12+00:00 INFO handleErrorCase
+2023-05-02T16:22:12+00:00 INFO getErrorMessage orderId: 163
+2023-05-02T16:22:12+00:00 INFO returning An error occured. Please contact administrator for assistance
+2023-05-02T16:22:12+00:00 INFO updateOrder orderId: 163 , razorpayPaymentId:  , success: 
+2023-05-02T16:22:12+00:00 INFO Woocommerce orderId: 163 processed through callback
+2023-05-02T16:22:29+00:00 INFO Called process_payment with params order_id 163
+2023-05-02T16:22:29+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 163
+2023-05-02T16:22:32+00:00 INFO getRazorpayPaymentParams 163
+2023-05-02T16:22:32+00:00 INFO createOrGetRazorpayOrderId 163 and is1ccCheckout is set to no
+2023-05-02T16:22:32+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 163 and is_magic_checkout_order is set to no
+2023-05-02T16:22:32+00:00 INFO razorpayOrderId order_LkrGMJiUYJqYVo | sessionKey razorpay_order_id163
+2023-05-02T16:22:32+00:00 INFO Called verifyOrderAmount with params orderId 163 and rzporderId order_LkrGMJiUYJqYVo
+2023-05-02T16:22:33+00:00 INFO Called getOrderCreationData with params orderId 163
+2023-05-02T16:22:33+00:00 INFO Called getOrderCreationData with params orderId 163 and is1ccOrder is set to no
+2023-05-02T16:27:21+00:00 INFO Called check_razorpay_response: wc_order_fPpzR9nim1pGv
+2023-05-02T16:27:21+00:00 INFO Get order id in check_razorpay_response: orderId 163
+2023-05-02T16:27:21+00:00 INFO handleErrorCase
+2023-05-02T16:27:21+00:00 INFO getErrorMessage orderId: 163
+2023-05-02T16:27:21+00:00 INFO returning An error occured. Please contact administrator for assistance
+2023-05-02T16:27:21+00:00 INFO updateOrder orderId: 163 , razorpayPaymentId:  , success: 
+2023-05-02T16:27:21+00:00 INFO Woocommerce orderId: 163 processed through callback
+2023-05-02T16:27:23+00:00 INFO Called check_razorpay_response: wc_order_fPpzR9nim1pGv
+2023-05-02T16:27:23+00:00 INFO Get order id in check_razorpay_response: orderId 163
+2023-05-02T16:27:23+00:00 INFO handleErrorCase
+2023-05-02T16:27:23+00:00 INFO getErrorMessage orderId: 163
+2023-05-02T16:27:23+00:00 INFO returning An error occured. Please contact administrator for assistance
+2023-05-02T16:27:23+00:00 INFO updateOrder orderId: 163 , razorpayPaymentId:  , success: 
+2023-05-02T16:27:24+00:00 INFO Woocommerce orderId: 163 processed through callback
